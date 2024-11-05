@@ -1,0 +1,217 @@
+.container {
+    padding: 20px;
+    border-bottom: 2px solid #3b3b4f;
+}
+
+.text {
+    width: 100vw;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;   
+}
+.text p{
+    width: 400px;
+}
+
+.text h1 {
+    margin-bottom: -10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.text p {
+    font-size: 13.5px;
+    line-height: 20px;
+}
+
+.projects {
+    width: 90%;
+    margin-left: 11%;
+}
+
+.project-1 {
+    width: 1,224px;
+    height: 600px;
+    display: flex;
+    gap: 6%;
+   
+}
+
+.project-2 {
+    width: 1,224px;
+    height: 600px;
+    display: flex;
+    gap: 6%;
+    
+}
+
+.project-3 {
+    width: 1,224px;
+    height: 600px;
+    display: flex;
+    gap: 6%;
+}
+
+.project-4 {
+    width: 1,224px;
+    height: 600px;
+    display: flex;
+    gap: 6%;
+}
+
+.project-5 {
+    width: 1,224px;
+    height: 600px;
+    display: flex;
+    gap: 6%;
+}
+
+
+.info {
+    width: 500px;
+    height: 400px;
+    gap: 32px;
+    line-height: 20px;
+    margin-top: -25px;
+}
+
+.projects p {
+    font-size: 10.5px;
+    line-height: 20px;
+    color: #c7c7c7;
+}
+
+.projects h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.reals {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px;
+    padding: 16px 0px;
+    color: #484848;
+    line-height: 2px;
+    border-top: 1px solid #3b3b4f;
+    margin-bottom: -10px;
+}
+
+.card {
+    width: 400px;
+    height: 350px;
+    background-color: #1A1A1A;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+.card img {
+    width: 300px;
+    height: 250px;
+    margin: 50px 50px;
+    border-radius: 12px;
+}
+
+.link {
+    display: inline-flex;
+    margin-top: -12px;
+}
+
+.link a {
+    text-decoration: underline;
+    color: #d3e97a;
+    font-size: 14px;
+}
+
+.link span {
+    align-items: center;
+    text-align: center;
+}
+
+
+@media (max-width: 1200px) {
+    .text {
+        width: 70%; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
+    .projects {
+        width: 95%; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
+    .project-1, .project-2, .project-3, .project-4, .project-5{
+        width: 100%; 
+        flex-direction: column;
+        width: 80vw;
+        margin: 2em auto;
+
+    }
+    .info {
+        width: 70vw;
+        margin: auto;
+        height: 400px;
+        gap: 32px;
+        line-height: 20px;
+        margin-top: -25px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .text {
+        width: 90%; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
+    .projects {
+        width: 100%; 
+        margin-left: 0; 
+        margin-right: 0; 
+    }
+
+    .project-1, .project-2, .project-3,.project-4, .project-5 {
+        flex-direction: column; 
+    }
+
+    .card {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .card img {
+        width: 100%; 
+        height: auto; 
+        margin: 0; 
+    }
+    .text p{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .text h1 {
+        font-size: 24px; 
+    }
+
+    .text p {
+        font-size: 12px; 
+    }
+
+    .projects p {
+        font-size: 10px; 
+    }
+
+    .projects h3 {
+        font-size: 20px; 
+    }
+
+    .link a {
+        font-size: 12px; 
+    }
+}

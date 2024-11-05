@@ -1,0 +1,135 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    color: #fff;
+}
+
+.footer-left h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 10px;
+    color: #c7c7c7;
+    margin: 5px 0;
+}
+
+.footer-left a {
+    font-size: 12px;
+    color: #c7c7c7;
+    text-decoration: none;
+}
+
+.footer-left a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    color: black;
+}
+
+.footer-right form {
+    display: grid;
+}
+
+.footer-right label {
+    font-size: 0.6rem;
+    margin: 4px 0;
+}
+
+.footer-right input,
+.footer-right textarea {
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 40px;
+    color: #c7c7c7;
+    margin-bottom: 15px;
+}
+
+#footer-btn{
+    padding: 1em 7em;
+    display: flex;
+    color: black;
+    border-radius: 1em;
+    background-color: #d3e97a;
+    border: none;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: auto;
+}
+
+.footer p {
+    font-size: 0.8rem;
+    color: #555;
+    margin-top: 20px; 
+}
+
+.copy {
+    margin-top: 10rem;
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .footer-left,
+    .footer-right {
+        width: 100%; 
+        max-width: 500px; 
+        margin-bottom: 20px; 
+    }
+
+    .footer-right form {
+        width: 100%; 
+    }
+
+    .footer-left h2 {
+        font-size: 1.5rem; 
+    }
+
+    .footer-left p,
+    .footer-left a {
+        font-size: 0.9rem; 
+    }
+
+    .social-icons img {
+        height: 20px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-left h2 {
+        font-size: 1.2rem; 
+    }
+
+    .footer-left p,
+    .footer-left a {
+        font-size: 0.8rem; 
+    }
+
+    
+
+    .footer p {
+        font-size: 0.7rem; 
+    }
+
+    .copy {
+        margin-top: 5rem; 
+    }
+}

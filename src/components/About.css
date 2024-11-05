@@ -1,0 +1,116 @@
+.container-3 {
+    width: 80vw;
+    margin: auto;
+    height: 70vh;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #3b3b4f;
+}
+
+.abt {
+    width: 40%;
+    height: 91px;
+    text-align: left;
+    padding: 20px;
+}
+
+.abt h2 {
+    font-size: 60px;
+    text-align: left;
+}
+
+.meet-me {
+    width: 40%;
+    margin-top: 30px;
+}
+
+.meet-me h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.meet-me p {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: justify;
+    color: #c7c7c7;
+}
+
+.abt-link {
+    margin-top: 40px;
+}
+
+.abt-link a {
+    font-size: 15px;
+    color: #d3e97a;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 1200px) {
+    .container-3 {
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .abt, .meet-me {
+        width: 90%; 
+        margin-left: auto;
+        margin-right: auto; 
+        padding: 10px; 
+    }
+
+    .abt h2 {
+        font-size: 50px; 
+        margin-top: 30px; 
+    }
+
+    .meet-me h2 {
+        font-size: 18px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .abt {
+        margin-left: 0; 
+        margin-top: 20px;
+    }
+
+    .meet-me {
+        margin-top: 20px; 
+    }
+
+    .abt h2 {
+        font-size: 40px; 
+        margin-top: 20px; 
+    }
+
+    .meet-me h2 {
+        font-size: 16px; 
+    }
+
+    .abt-link a {
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .abt h2 {
+        font-size: 30px; 
+    }
+
+    .meet-me h2 {
+        font-size: 14px; 
+    }
+
+    .meet-me p {
+        font-size: 10px; 
+    }
+
+    .abt-link a {
+        font-size: 12px; 
+    }
+}
